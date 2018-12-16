@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<servers>
+  <server auto-publish-time="1" hostname="localhost" id="WildFly 111544049627707" name="WildFly 11" org.jboss.ide.eclipse.as.core.server.EXPOSE_MANAGEMENT_SERVICE="true" org.jboss.ide.eclipse.as.core.server.IGNORE_LAUNCH_COMMANDS="false" org.jboss.ide.eclipse.as.core.server.attributes.shutdownPollerKey="org.jboss.ide.eclipse.as.core.runtime.server.WebPoller" org.jboss.ide.eclipse.as.core.server.attributes.startupPollerKey="org.jboss.ide.eclipse.as.core.runtime.server.WebPoller" org.jboss.ide.eclipse.as.core.server.deployDirectoryType="server" org.jboss.ide.eclipse.as.core.server.serverMode="local" runtime-id="WildFly 11.0 Runtime" server-type="org.jboss.ide.eclipse.as.wildfly.110" server-type-id="org.jboss.ide.eclipse.as.wildfly.110" start-timeout="450" stop-timeout="450" timestamp="9">
+    <list key="modules" value0="WebApp::org.eclipse.jst.jee.server:WebApp::jst.web::3.1" value1="EarTestProject::org.eclipse.jst.jee.server:EarTestProject::jst.ear::7.0" value2="MyEAR::org.eclipse.jst.jee.server:MyEAR::jst.ear::7.0" value3="MyEARProject::org.eclipse.jst.jee.server:MyEARProject::jst.ear::7.0"/>
+  </server>
+</servers>

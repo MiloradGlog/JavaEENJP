@@ -1,0 +1,5 @@
+package org.lemi.services;
+
+public class IServiceUser {
+
+}

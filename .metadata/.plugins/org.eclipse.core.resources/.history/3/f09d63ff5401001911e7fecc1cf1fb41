@@ -1,0 +1,5 @@
+package org.lemi.dao;
+
+public class UserDAO extends DAOAbstractDatabase<T> {
+
+}

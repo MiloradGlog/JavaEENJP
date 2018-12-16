@@ -1,0 +1,5 @@
+package org.lemi.dao;
+
+public interface IDAOUser {
+
+}

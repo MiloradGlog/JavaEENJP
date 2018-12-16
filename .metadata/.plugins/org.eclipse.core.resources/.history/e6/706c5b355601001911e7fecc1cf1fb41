@@ -1,0 +1,5 @@
+package org.lemi.services;
+
+public class ServiceUser extends ServiceAbstract<T, DAO> {
+
+}

@@ -1,0 +1,16 @@
+package org.lemi.entities;
+
+public class UserEntity extends BasicEntity {
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+	
+	public UserEntity() {
+		// TODO Auto-generated constructor stub
+	}
+	
+	
+
+}

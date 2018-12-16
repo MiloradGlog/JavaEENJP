@@ -1,0 +1,7 @@
+package org.lemi.services;
+
+import org.lemi.entities.BasicEntity;
+
+public interface IServiceUser<T extends BasicEntity> extends IServiceAbstract<T>{
+
+}
