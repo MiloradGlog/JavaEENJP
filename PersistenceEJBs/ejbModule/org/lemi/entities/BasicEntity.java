@@ -2,6 +2,7 @@ package org.lemi.entities;
 
 import java.io.Serializable;
 
+import javax.persistence.Column;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
@@ -45,6 +46,7 @@ public class BasicEntity implements Serializable{
 
 	@Id
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
+	@Column(name = "my_id")
 	private int id;
 	
 	private static final long serialVersionUID = 1863045131004807411L;

@@ -1,7 +1,13 @@
 package org.lemi.ejb_controllers;
 
+import java.util.List;
+
+import javax.ejb.EJB;
 import javax.ejb.LocalBean;
 import javax.ejb.Stateless;
+
+import org.lemi.entities.UserEntity;
+import org.lemi.services.IServiceUser;
 
 
 @LocalBean
@@ -19,12 +25,20 @@ public class CommunicationController implements CommunicationControllerRemote{
 		System.out.println(poruka);
 		return poruka;
 	}
-//	@Override
-//	public boolean addUser(UserEntity user) {
-//		return serviceUser.add(user);
-//	}
 	
 
-//	@EJB
-//	private IServiceUser serviceUser;
+	@Override
+	public List<UserEntity> getUsers() {
+		return serviceUser.getAll();
+	}
+	
+	@Override
+	public boolean addUser(UserEntity user) {
+		System.out.println(user.toString());
+		return serviceUser.add(user);
+	}
+	
+
+	@EJB
+	private IServiceUser serviceUser;
 }

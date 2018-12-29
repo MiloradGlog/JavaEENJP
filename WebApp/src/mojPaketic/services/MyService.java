@@ -1,5 +1,7 @@
 package mojPaketic.services;
 
+import java.util.List;
+
 import javax.ejb.EJB;
 import javax.ejb.LocalBean;
 import javax.ejb.Stateless;
@@ -23,8 +25,14 @@ public class MyService {
 		String str = "blabla";
 		str = mojBean.hello();
 		System.out.println(str);
-		//UserEntity user = new UserEntity();
-		//user.setIme("Zile");
+		UserEntity user = new UserEntity();
+		user.setIme("Zile");
+		
+		List<UserEntity> lista = mojBean.getUsers();
+		
+		for (UserEntity u : lista) {
+			System.out.println(u.getIme());
+		}
 		//mojBean.addUser(user);
 		return str;
 	}

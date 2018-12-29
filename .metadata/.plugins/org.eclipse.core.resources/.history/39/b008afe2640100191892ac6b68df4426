@@ -1,0 +1,11 @@
+package org.lemi.ejb_controllers;
+
+import javax.ejb.Remote;
+
+//import org.lemi.entities.UserEntity;
+
+@Remote
+public interface CommunicationControllerRemote {
+	public String hello();
+	//public boolean addUser(UserEntity user);
+}
